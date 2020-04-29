@@ -1,14 +1,14 @@
-import { Animated } from 'react-native';
+import {Animated} from 'react-native';
 import styled from 'styled-components/native';
 
 export const SafeAreaView = styled.SafeAreaView`
   flex: 1;
-  background: #8B10AE;
+  background: #8b10ae;
 `;
 
 export const Container = styled.View`
   flex: 1;
-  background: #8B10AE;
+  background: #8b10ae;
   justify-content: center;
 `;
 
@@ -20,7 +20,7 @@ export const Content = styled.View`
 
 export const Card = styled(Animated.View)`
   flex: 1;
-  background: #FFF;
+  background: #fff;
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
@@ -44,8 +44,8 @@ export const CardContent = styled.View`
 `;
 
 export const Title = styled.Text`
-font-size: 13px;
-color: #999;
+  font-size: 13px;
+  color: #999;
 `;
 
 export const Description = styled.Text`
